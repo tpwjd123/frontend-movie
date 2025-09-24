@@ -10,7 +10,7 @@ const api = axios.create({
 
 //Flask API
 const chatApi=axios.create({
-  baseURL:'http://localhost:8000',
+  baseURL:'https://backend-movie-dr57.onrender.com',
   headers:{
     'Content-Type':'application/json'
   }
